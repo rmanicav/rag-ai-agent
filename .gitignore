@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+*.log
+.pytest_cache/
+
+# ML caches
+.cache/
+huggingface/
+transformers/
+
+# Chroma local database
+chroma/
+chroma_db/
+
+# Secrets
+.env
+*.key
+*.pem
